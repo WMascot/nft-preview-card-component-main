@@ -118,7 +118,7 @@ body .flex.space-between {
 }
 .card__bottom-info_price {
   gap: 0.5rem;
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-semibold);
   font-size: var(--fs-300);
   color: var(--clr-primary-300);
 }
@@ -132,6 +132,7 @@ body .flex.space-between {
   border-top: 1px solid var(--clr-neutral-400);
 }
 .card__footer {
+  font-weight: var(--fw-regular);
   font-size: var(--fs-300);
   gap: 1rem;
   margin-bottom: 0.75rem;
@@ -144,6 +145,7 @@ body .flex.space-between {
   border-radius: 50%;
 }
 .card__footer a {
+  font-weight: var(--fw-regular);
   font-size: var(--fs-300);
   color: var(--clr-neutral-100);
 }

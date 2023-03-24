@@ -141,7 +141,7 @@ body {
     &__bottom-info {
         &_price {
             gap: 0.5rem;
-            font-weight: var(--fw-regular);
+            font-weight: var(--fw-semibold);
             font-size: var(--fs-300);
             color: var(--clr-primary-300);
         }
@@ -159,6 +159,7 @@ body {
     }
 
     &__footer {
+        font-weight: var(--fw-regular);
         font-size: var(--fs-300);
         gap: 1rem;
         margin-bottom: 0.75rem;
@@ -173,6 +174,7 @@ body {
         }
 
         a {
+            font-weight: var(--fw-regular);
             font-size: var(--fs-300);
             color: var(--clr-neutral-100);
 
